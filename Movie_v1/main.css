@@ -1,0 +1,30 @@
+
+body {
+    background-color: #1f6377;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFFFFF;
+}
+
+.poster {
+    float: left;
+    height: 300px;
+    width: 30%;
+
+}
+
+.wrapper {
+    height: 280px;
+    padding-top: 40px;
+}
+
+.title, .date, .description, .rate {
+    text-align: center;
+    display: block;
+    font-size: 25px;
+
+}
+
+span {
+    font-size: 30px;
+    color: #5D016D;
+}

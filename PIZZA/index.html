@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+    <a href="index.html"><img class="logo" src="images/logo.png"></a>
+    <p class="slogan">Пицца - нельзя не соблазниться!</p>
+</header>
+
+<div class="wrapper">
+    <p class="headlines">Выберите пиццу:</p>
+    <div class="products" id="products"></div>
+</div>
+<footer>
+    <img class="logo-footer" src="images/logo.png">
+</footer>
+
+<div class="popup-shadow" id="popup">
+    <div class="popup">
+        <a class="close icon" onclick="closePopup()"></a>
+        <div class="wrapper">
+            <div class="header">
+                <div class="name" id="name"></div>
+            </div>
+            <div class="pizza" id="pizza">
+                <div class="sizes" id="sizes"></div>
+                <div class="invoice" id="invoice"></div>
+            </div>
+            <div class="supplements" id="supplements"></div>
+
+            <div class="footer" id="footer">
+                <a class="button order" id="order" onclick="order()" disabled>Подтвердить</a>
+                <a class="button close" onclick="closePopup()">Закрыть</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+

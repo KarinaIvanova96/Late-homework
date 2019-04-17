@@ -1,0 +1,35 @@
+nav img {
+    height: 100px;
+}
+
+.carousel img {
+    height: 450px;
+    width: 500px;
+}
+
+.card-deck {
+    width: 100%;
+}
+
+.card-deck .card1 {
+    margin-left: 45px;
+}
+
+.card img {
+    height: 240px;
+}
+
+.separator {
+    height: 100px;
+}
+
+.form {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form button {
+    width: 200px;
+
+}

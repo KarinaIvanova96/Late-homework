@@ -1,0 +1,372 @@
+* {
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    float: left;
+    height: 80px;
+    padding: 14px 39px
+}
+
+header {
+    height: 110px;
+    background-color: #003366;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.slogan {
+    text-align: center;
+    color: #ffffff;
+    padding: 30px;
+    font-size: 50px;
+}
+
+.headlines {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.products {
+    display: inline-block;
+    width: 100%;
+    height: 900px;
+}
+
+.delivery-info {
+    width: 60%;
+    float: left;
+}
+
+.order-info {
+    display: inline-block;
+    width: 40%;
+    height: 600px;
+    background-color: #ece4e457;
+}
+
+.order {
+    height: 450px;
+    text-align: center;
+    width: 420px;
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: #ffffff;
+    position: relative;
+    overflow: scroll;
+    margin: 20px auto;
+}
+
+button {
+    height: 35px;
+    width: 80px;
+    font-size: 20px;
+    margin-left: 360px;
+}
+
+.all-input {
+    font-size: 30px;
+}
+
+.all-input .label {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+.all-input .input {
+    width: 25%;
+    min-height: 38px;
+    float: left;
+    margin-right: 45%;
+}
+
+.all-input .submit .input {
+    text-align: center;
+}
+
+.all-input input {
+    height: 20px;
+    width: calc(100% - 40px);
+    padding: 0;
+    margin: 5px 20px;
+    vertical-align: middle;
+    font-size: 26px;
+}
+
+.all-input select {
+    height: 30px;
+    width: calc(100% - 36px);
+    margin: 5px 20px;
+    font-size: 26px;
+}
+
+.all-input textarea {
+    display: inline-block;
+    width: calc(100% - 38px);
+    margin: 5px 20px;
+    font-size: 26px;
+}
+
+.textarea-form {
+    resize: none;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.open {
+    cursor: pointer;
+}
+
+.item {
+    width: 25%;
+    text-align: center;
+    font-size: 40px;
+    float: left;
+    display: inline-block;
+    padding-bottom: 60px;
+}
+
+.item img {
+    cursor: pointer;
+}
+
+.item:nth-child(5n) {
+    clear: both;
+
+}
+
+.item img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.products p {
+    display: inline-block;
+    float: left;
+    margin-left: 80px;
+}
+
+.button {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 120px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #006699;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.button:not([disabled]):hover {
+    background: #0099CC;
+    box-shadow: 0 10px 15px #66CCFF;
+    color: #ffffff;
+    transform: translateY(-7px);
+}
+
+footer {
+    height: 78px;
+    background-color: #003366;
+}
+
+.logo-footer {
+    float: right;
+    height: 50px;
+    padding: 14px 39px
+}
+
+.popup-shadow {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: none;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: white;
+    width: 900px;
+    height: 640px;
+}
+
+.popup .pizza {
+    text-align: center;
+}
+
+.popup .pizza, .popup .supplements {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+    padding-right: 30px;
+}
+
+.popup .header {
+    font-size: 60px;
+    margin: 20px 30px;
+}
+
+.popup .sizes {
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 40px;
+}
+
+.popup .sizes p {
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+.popup .size {
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 1em;
+    padding: .5em;
+    cursor: pointer;
+    height: 20px;
+    width: 150px;
+    margin: .25em auto;
+}
+
+.popup .invoice {
+    font-size: 26px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.popup .size.active {
+    background-color: #003366;
+    color: white;
+}
+
+.popup .supplements p {
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+.popup .supplement {
+    border: 1px solid black;
+    position: relative;
+    width: calc(25% - 1px);
+    float: left;
+    margin-left: -1px;
+    margin-bottom: -1px;
+    cursor: pointer;
+}
+
+.popup .supplement img {
+    width: 100%;
+    height: 90px;
+    vertical-align: middle;
+}
+
+.popup .supplement:not(.selected) img:hover, .popup .supplement:not(.selected):hover img {
+    opacity: 0.3;
+}
+
+.popup .supplement:not(.selected):hover::before, .popup .supplement:not(.selected):hover::after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 4px;
+    background-color: #000000;
+    display: inline-block;
+    top: 50%;
+    left: 20%;
+}
+
+.popup .supplement:hover::after {
+    transform: rotate(90deg);
+}
+
+.popup .supplement.selected::before {
+    content: '✓';
+    position: absolute;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.popup .content {
+    font-size: 20px;
+}
+
+.popup a.close.icon {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.popup a.close.icon:before, .popup a.close.icon:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    background-color: #003366;
+    top: 9px;
+    right: 3px;
+}
+
+.popup a.close.icon:before {
+    transform: rotate(45deg);
+}
+
+.popup a.close.icon:after {
+    transform: rotate(-45deg);
+}
+
+.popup .footer {
+    display: inline-block;
+    width: calc(100% - 60px);
+    margin: 20px 30px;
+    box-sizing: border-box;
+}
+
+.popup .footer a.close {
+    float: right;
+    background-color: grey;
+    margin-right: 0;
+}
+
+.popup .footer a.order {
+    float: left;
+    margin-left: 0;
+    width: 200px;
+}
+
+.popup .footer a.order:disabled,
+.popup .footer a.order[disabled] {
+    background-color: grey;
+}
