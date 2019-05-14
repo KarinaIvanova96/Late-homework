@@ -1,0 +1,9 @@
+:host{
+  text-align: center;
+  color: #4C5B5C;
+}
+
+td{
+  width: 150px;
+  border: 1px solid black;
+}
